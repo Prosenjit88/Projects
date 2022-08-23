@@ -27,4 +27,7 @@ def send_email(quote):
 
 
 quote = get_quote()
-send_email(quote)
+
+if(day == 1):
+    send_email(quote)
+
